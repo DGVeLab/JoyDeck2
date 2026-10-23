@@ -66,7 +66,7 @@ Use the firmware identified as compatible in the JoyDeck 2 release instructions.
 
 ## First setup
 
-1. Start from the [MakerWorld project](https://makerworld.com/en/models/3316603) for the build files, assembly information and first-download instructions.
+1. Visit [DGVeLab on MakerWorld](https://makerworld.com/en/@DGVeLab/upload) and open the JoyDeck 2 project for build files, assembly information and first-download instructions.
 2. Install the release package for Windows. Download the installer attached to the release; GitHub's **Source code** archives are not Windows installers.
 3. Complete the free activation procedure when prompted.
 4. Install compatible firmware if needed, following the release instructions. The [DGVeLab Flash Center](https://dgvelab.github.io/DGVeLab-Flash-Center/) and [ESP-Programmer resources](https://github.com/DGVeLab/ESP-Programmer) provide flashing tools and driver information. Select a firmware specifically identified for your device and JD2.
