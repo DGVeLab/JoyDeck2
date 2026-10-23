@@ -1,0 +1,69 @@
+JOYDECK 2 HUB – PRIVACY NOTICE
+Version 1.2 – October 16, 2026
+
+Data Controller DGVeLab – Ernesto
+Privacy/support contact: dgvelab@gmail.com
+
+1. PURPOSES OF PROCESSING
+Personal data provided by the user is processed solely to:
+- manage software activation or registration requests;
+- associate the request with the relevant product and installation;
+- prevent abuse of the activation system;
+- provide technical support related to the request.
+
+Data is not used for advertising, promotional, marketing or profiling purposes.
+
+Optional Bambu Cloud integration is described separately in section 10. It is not required to activate or use the other JoyDeck functions.
+
+2. DATA PROCESSED
+The activation system may process:
+- name;
+- email address;
+- Product ID / product or installation identifier;
+- product name and identifier;
+- product and software version;
+- request date and timestamp.
+
+JoyDeck 2 Hub does not intentionally send personal content stored on the user's computer to the activation service.
+
+3. LEGAL BASIS
+Data required to manage an activation request is processed in order to provide the service requested by the user. Activities strictly necessary for security and prevention of abuse are based on the controller's legitimate interest in protecting the service.
+
+4. PROVISION OF DATA
+Data requested in the activation form is necessary to process the request. Without such data, the activation procedure provided by the software cannot be completed.
+
+5. RETENTION
+Activation requests stored by the service are retained for a maximum of 180 days, unless longer retention is required by law, for dispute management, or for the establishment, exercise or defence of legal claims.
+
+6. SERVICE PROVIDERS AND RECIPIENTS
+External technical providers may be used to operate the service, in particular:
+- Cloudflare, for Worker execution and technical storage of activation requests;
+- Resend, for sending email notifications relating to activation requests.
+
+These providers process data only as necessary to provide their respective services and according to their applicable terms, security measures and contractual safeguards.
+
+7. SECURITY AND DATA MINIMISATION
+DGVeLab applies reasonable technical and organisational measures proportionate to the nature of the service, including HTTPS communications, protected administrative access and minimisation of personal data in application logs.
+
+8. DATA SUBJECT RIGHTS
+Where provided by applicable law, users may request access, rectification, erasure or restriction of processing of their personal data and may object to processing based on legitimate interests.
+
+Requests may be sent to the contact shown at the beginning of this notice.
+
+Users also have the right to lodge a complaint with the competent data protection authority.
+
+9. CHANGES TO THIS NOTICE
+This notice may be updated to reflect changes to the software, activation system or legal requirements. The updated version will be made available with the software.
+
+10. OPTIONAL BAMBU CLOUD INTEGRATION
+The user may connect a Bambu Lab account to monitor associated printers. JoyDeck 2 Hub communicates directly with Bambu Lab services over encrypted HTTPS and MQTT/TLS connections. The feature receives printer reports and sends a limited request for a complete telemetry report when monitoring starts or needs to recover current data. These report requests do not change printer settings or control heating, movement or printing; no printer control commands are sent.
+
+The access token, region, cloud user identifier and any available expiry information are stored only on the user's computer in a local session file, encrypted using Windows protection associated with the current user (DPAPI CurrentUser). This enables subsequent use without signing in every time. The Bambu account password is not stored. The email address and verification code entered for sign-in are sent directly to Bambu Lab; they are not stored in the local session file.
+
+DGVeLab does not receive, collect or store the Bambu access token on its systems and has no remote mechanism through activation, support or this integration to view it. The token is excluded from JoyDeck configuration files, profile backups and application logs. Printer reports and graph history are processed locally; the Bambu monitoring feature does not forward them to DGVeLab systems. Graph history is held only in memory for the monitoring session and is cleared when monitoring ends.
+
+The local session remains stored until the user disconnects the account, replaces it through a new sign-in, or removes the application's local data. The token's validity is controlled by Bambu Lab: it can expire, be revoked or be rejected before its indicated expiry. A new sign-in is required when necessary. Disconnecting the account in Cloud settings deletes the locally stored token and clears the active local session; it does not revoke all sessions of the Bambu account.
+
+Bambu Lab receives the information required to authenticate the account and operate its cloud service, under Bambu Lab's own terms and privacy notice available on its official website. DGVeLab does not operate that service or determine its availability or token lifetime. Local encryption does not guarantee protection from parties who control the user's PC or Windows session. Copying the token file to another computer or Windows user is not a supported account-transfer method.
+
+The 180-day retention period in section 5 applies to software activation requests, not to the Bambu token or local graph history.

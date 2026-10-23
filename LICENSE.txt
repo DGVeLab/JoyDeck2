@@ -1,0 +1,34 @@
+JOYDECK 2 HUB – END USER LICENSE AND DISCLAIMER
+Version 1.0 – October 6, 2026
+
+1. LICENSE
+JoyDeck 2 Hub is software distributed by DGVeLab for use with compatible JoyDeck devices. The user is granted a personal, non-exclusive and revocable license to use the software for lawful purposes and in accordance with this license.
+
+2. INTELLECTUAL PROPERTY
+The software, JoyDeck name, graphics, icons, documentation and other original elements remain the property of their respective owners. This license does not transfer ownership of the software or related content.
+
+3. USE OF THE SOFTWARE
+JoyDeck 2 Hub may simulate keyboard and mouse input, launch applications, send commands and interact with external devices according to the configuration selected by the user. The user is responsible for the configuration and must verify that assigned commands are appropriate for their system and applications.
+
+The software must not be used for unlawful activities, to bypass security measures, or to intentionally damage systems, devices or third-party data.
+
+4. SOFTWARE PROVIDED "AS IS"
+JoyDeck 2 Hub is provided "as is" and "as available", without warranty of uninterrupted or error-free operation or compatibility with every hardware, software, driver or peripheral configuration.
+
+DGVeLab may correct, modify, add or remove features in future versions without any obligation to maintain compatibility with previous configurations.
+
+5. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law, DGVeLab shall not be liable for indirect, incidental or consequential damages, loss of data, configurations, productivity or use arising from use, misuse, inability to use the software, or incompatibility with other products.
+
+The user is responsible for backing up their data and configurations and for the commands configured in the software.
+
+Nothing in this license excludes or limits liability that cannot lawfully be excluded or limited.
+
+6. FREE SOFTWARE
+Free distribution of the software does not create any additional warranty, obligation to provide continuous support, or commitment to provide future updates.
+
+7. PRIVACY
+Personal data processing connected with product activation or registration is described in the separate Privacy Notice shown during installation and available in the program installation folder.
+
+8. ACCEPTANCE
+By installing or using JoyDeck 2 Hub, the user acknowledges that they have read and accepted this license.
