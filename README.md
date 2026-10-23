@@ -1,6 +1,6 @@
 # JoyDeck 2 Hub
 
-![JoyDeck2](images/skin.png)
+![JoyDeck2](images/Skin.png)
 
 **Your desktop, one joystick away.**
 
