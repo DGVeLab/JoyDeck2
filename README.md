@@ -1,10 +1,10 @@
 # JoyDeck 2 Hub
 
+![JoyDeck2](images/skin.png)
+
 **Your desktop, one joystick away.**
 
 Turn an eight-way joystick into a programmable controller for applications, shortcuts, media, CAD workflows and Bambu Lab printer monitoring.
-
-[Get started on MakerWorld](https://makerworld.com/en/models/3316603) · [Software updates](https://github.com/DGVeLab/JoyDeck2/releases/latest) · [User guide](Docs/README.md) · [Italiano](README.it.md)
 
 ![JoyDeck 2 Hub desktop interface](images/joydeck2-home.png)
 
