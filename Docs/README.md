@@ -2,7 +2,7 @@
 
 | Document | Contents |
 |---|---|
-| [Illustrated user manual, revision 9](JoyDeck_2_User_Manual.pdf) | Complete setup, firmware flashing, actions, Page 2, Mini Game and Bambu Lab monitoring. Download the DOCX to open it in a compatible document reader. |
+| [Illustrated user manual](JoyDeck_2_User_Manual.pdf) | Complete setup, firmware flashing, actions, Page 2, Mini Game and Bambu Lab monitoring. Download the DOCX to open it in a compatible document reader. |
 | [Installation](INSTALLATION.md) | First connection and firmware requirements. |
 | [Moving from JD1](MIGRATION_FROM_JD1.md) | Configuration backup and migration checks. |
 | [Troubleshooting](TROUBLESHOOTING.md) | Serial connection, actions, activation and cloud data. |
