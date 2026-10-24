@@ -1,21 +1,4 @@
-# Installazione / Installation
-
-## Italiano
-
-1. Consulta il [progetto MakerWorld](https://makerworld.com/en/models/3316603) e le note della release JD2 scelta.
-2. Scarica l'installer Windows allegato alla release. Non usare gli archivi automatici **Source code** come installer. Se la release offre un pacchetto portable, estrai tutta la cartella prima di avviare `JoyDeckHub.exe` e conserva insieme tutti i file.
-3. Installa il programma e completa l'attivazione gratuita, se richiesta. Le richieste vengono elaborate da DGVeLab; attendi il codice prima di ripetere l'invio.
-4. Verifica il firmware indicato dalla release per il tuo dispositivo. La versione Hub documentata usa il protocollo seriale JoyDeck 2: un vecchio firmware può esporre la COM senza essere riconosciuto dall'Hub. Non scegliere un firmware soltanto in base al numero di versione.
-5. Per la programmazione usa lo strumento indicato nelle note firmware. Il [Flash Center](https://dgvelab.github.io/DGVeLab-Flash-Center/) può essere usato quando il catalogo o le istruzioni della release identificano il firmware corretto. Per file locali usa soltanto gli offset forniti con quel firmware. [ESP-Programmer](https://github.com/DGVeLab/ESP-Programmer) contiene ulteriori risorse e driver.
-6. Chiudi flasher, browser collegato alla seriale, IDE e vecchio Hub. Scollega e ricollega la USB se necessario.
-7. Avvia JD2, seleziona la COM, premi **Connect** e lascia lo stick al centro durante la calibrazione.
-8. Configura una direzione, prova **Test action** e premi **Save**.
-
-Il profilo di pubblicazione del progetto è Windows x64 self-contained. Un pacchetto generato con quel profilo include il runtime .NET; non richiede l'installazione separata del runtime. Questa indicazione va verificata nelle note del pacchetto effettivamente scaricato.
-
-La programmazione può sovrascrivere le impostazioni del dispositivo. Esporta la configurazione dell'Hub prima di cambiare installazione o firmware.
-
-## English
+# Installation
 
 1. Start from the [MakerWorld project](https://makerworld.com/en/models/3316603) and read the selected JD2 release notes.
 2. Download the attached Windows installer. Automatic **Source code** archives are not installers. If a portable package is offered, extract the entire folder before running `JoyDeckHub.exe` and keep its files together.
