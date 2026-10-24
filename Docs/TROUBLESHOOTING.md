@@ -1,33 +1,19 @@
-# Risoluzione dei problemi / Troubleshooting
+# Troubleshooting
 
-| Problema | Controlli |
+| Problem | Checks |
 |---|---|
-| La COM non compare | Usa un cavo USB dati, prova un'altra porta, aggiorna l'elenco e verifica il driver USB-seriale. |
-| Porta occupata / accesso negato | Chiudi JD1, IDE, monitor seriali e flasher, incluso il browser se collegato via USB. |
-| COM presente, dispositivo non riconosciuto | Verifica firmware compatibile con JD2, porta corretta e applicazioni concorrenti. Dopo il flash scollega e ricollega la USB. |
-| Una direzione parte da sola | Ricollega con stick centrato e regola la dead zone. |
-| Non posso aggiungere Mouse move o Orbital | Una delle due modalità è già assegnata su Page 1 o Page 2. Rimuovi l'assegnazione esistente prima di spostarla. |
-| Hold o Spam resta attivo | Ripeti la stessa direzione e la stessa procedura di attivazione per disattivarlo. |
-| Sono in una modalità persistente | Nelle modalità che lo prevedono, tieni premuto il pulsante per uscire. |
-| Timeout richiesta attivazione | Verifica Internet e accesso consentito da firewall/antivirus; riavvia il programma e riprova più tardi. |
-| Bambu connesso ma dati incompleti | Mantieni aperto il monitor e attendi il report completo. Dopo riaperture ravvicinate possono servire circa cinque minuti. |
-| Bambu richiede di nuovo l'accesso | La sessione può essere scaduta o revocata. Accedi nuovamente da Cloud settings. |
-| Manca una lettura Bambu | Le misure disponibili dipendono dal modello e dalla telemetria ricevuta. Non interpretare un campo iniziale vuoto come una lettura reale. |
+| COM port not listed | Use a USB data cable, try another USB port, refresh the port list and check the USB-to-serial driver. |
+| Port busy / access denied | Close JD1, IDEs, serial monitors and flashing tools, including the browser if connected via USB. |
+| COM port available, device not recognized | Check that the firmware is compatible with JD2, the correct port is selected and no other applications are using it. After flashing, disconnect and reconnect the USB cable. |
+| A direction activates on its own | Reconnect with the stick centered and adjust the dead zone. |
+| Cannot assign Mouse move or Orbital | One of these modes is already assigned on Page 1 or Page 2. Only one instance of either mode is allowed across both pages. Remove the existing assignment before moving it. |
+| Hold or Spam remains active | Repeat the same direction and activation procedure to deactivate it. |
+| A persistent mode is active | In modes that support it, press and hold the button to exit. |
+| Activation request timeout | Check the Internet connection and ensure that the firewall/antivirus allows access; restart the program and try again later. |
+| Bambu connected, but data incomplete | Keep the monitor open and wait for the full report. Reopening it shortly after closing may require a wait of approximately five minutes. |
+| Bambu requests sign-in again | The session may have expired or been revoked. Sign in again through Cloud settings. |
+| A Bambu reading is missing | Available measurements depend on the model and the telemetry received. Do not interpret an initially empty field as an actual reading. |
 
-## English
-
-- **No COM port:** check the USB data cable, driver, USB port and refreshed port list.
-- **Port busy:** close the old Hub, serial monitors, IDEs and flashing tools, including a connected browser.
-- **Port visible but no compatible device:** verify the JD2 firmware, select the correct port and reconnect USB after flashing.
-- **Unwanted directions:** reconnect with the stick centered, then adjust dead zone.
-- **Mouse move / Orbital assignment rejected:** remove the existing assignment on either page first; only one instance of either mode is allowed.
-- **Key Hold / Spam still running:** repeat the same direction and trigger procedure to turn it off.
-- **Persistent mode active:** use a long press to exit where supported.
-- **Activation timeout:** check connectivity and firewall access, then retry later.
-- **Incomplete Bambu data:** keep the monitor open and wait for a full report. Rapid reopening can require about five minutes.
-- **Expired Bambu session:** sign in again in Cloud settings.
-- **Missing Bambu measurements:** available readings depend on the printer and its reports.
-
-## Segnalazioni / Reporting a problem
+## Reporting a problem
 
 Include Hub version, firmware version, Windows version, trigger mode and exact steps. For Bambu issues, add printer model and the screen involved. Share only the relevant redacted log excerpt. Never post activation codes, account tokens, email verification codes, printer identifiers or private webhook URLs.
