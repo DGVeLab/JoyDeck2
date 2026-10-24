@@ -74,7 +74,7 @@ Use the firmware identified as compatible in the JoyDeck 2 release instructions.
 6. Select the correct COM port and click **Connect**. Leave the stick centered during calibration.
 7. Select a direction, choose its action, set the parameters, color and icon, then use **Test action** and **Save**.
 
-See [Installation](Docs/INSTALLATION.md) and the [illustrated Italian manual](Docs/JoyDeck_2_Manuale_Uso_IT_rev8_Illustrato.docx) for more detail.
+See [Installation](Docs/INSTALLATION.md) for more detail.
 
 ## Free activation
 
